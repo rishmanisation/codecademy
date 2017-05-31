@@ -7,6 +7,7 @@ public class Magic {
     Scanner in = new Scanner(System.in);
     System.out.println("Enter any integer:");
     int myNumber = in.nextInt();
+    // NOTE: For online submission, replace lines 7-9 with int myNumber = x, where x is any integer.
     int stepOne = myNumber * myNumber;
     int stepTwo = stepOne + myNumber;
     int stepThree = stepTwo / myNumber;
